@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -2.286 5.08 0)
+			(at -1.016 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,8 +51,8 @@
 		)
 		(symbol "PANGOLIN_1_1"
 			(rectangle
-				(start -2.54 3.81)
-				(end 2.5399 -3.81)
+				(start -1.2699 3.175)
+				(end 1.27 -3.175)
 				(stroke
 					(width 0)
 					(type solid)
@@ -62,7 +62,7 @@
 				)
 			)
 			(pin output line
-				(at 5.08 2.54 180)
+				(at 3.81 1.27 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -80,7 +80,7 @@
 				)
 			)
 			(pin output line
-				(at 5.08 -2.54 180)
+				(at 3.81 -1.27 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -105,7 +105,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -8.382 16.51 0)
+			(at -10.922 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -149,8 +149,8 @@
 		)
 		(symbol "TPS922051_1_1"
 			(rectangle
-				(start -8.89 15.24)
-				(end 8.89 -15.24)
+				(start -11.43 15.24)
+				(end 11.43 -15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -160,25 +160,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 11.43 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 3.81 0)
+				(at -13.97 11.43 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -196,7 +178,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -3.81 0)
+				(at -13.97 -2.54 0)
 				(length 2.54)
 				(name "DIM"
 					(effects
@@ -214,7 +196,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -11.43 0)
+				(at -13.97 -7.62 0)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -232,7 +214,61 @@
 				)
 			)
 			(pin input line
-				(at 11.43 11.43 180)
+				(at -13.97 -12.7 0)
+				(length 2.54)
+				(name "COMP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -17.78 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 -17.78 90)
+				(length 2.54)
+				(name "PAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.97 11.43 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -250,7 +286,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 3.81 180)
+				(at 13.97 0 180)
 				(length 2.54)
 				(name "CSN"
 					(effects
@@ -268,7 +304,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 -3.81 180)
+				(at 13.97 -11.43 180)
 				(length 2.54)
 				(name "CSP"
 					(effects
@@ -278,24 +314,6 @@
 					)
 				)
 				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 11.43 -11.43 180)
-				(length 2.54)
-				(name "COMP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
