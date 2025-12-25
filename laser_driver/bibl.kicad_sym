@@ -2,117 +2,19 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "PANGOLIN"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "J"
-			(at -1.016 4.318 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "PANGOLIN_1_1"
-			(rectangle
-				(start -1.2699 3.175)
-				(end 1.27 -3.175)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin output line
-				(at 3.81 1.27 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 3.81 -1.27 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(symbol "TPS922051"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -8.382 16.51 0)
+			(at -10.922 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TPS922051"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120,16 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Package_SO:HVSSOP-8-1EP_3x3mm_P0.65mm_EP1.57x1.89mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -138,7 +31,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps922051.pdf?ts=1766588235397&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS922051"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buck converter led driver"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "TPS922051"
 			(at 0 0 0)
 			(effects
 				(font
@@ -149,8 +60,8 @@
 		)
 		(symbol "TPS922051_1_1"
 			(rectangle
-				(start -8.89 15.24)
-				(end 8.89 -15.24)
+				(start -11.43 15.24)
+				(end 11.43 -15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -160,25 +71,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 11.43 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 3.81 0)
+				(at -13.97 11.43 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -196,7 +89,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -3.81 0)
+				(at -13.97 -2.54 0)
 				(length 2.54)
 				(name "DIM"
 					(effects
@@ -214,7 +107,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -11.43 0)
+				(at -13.97 -7.62 0)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -232,7 +125,61 @@
 				)
 			)
 			(pin input line
-				(at 11.43 11.43 180)
+				(at -13.97 -12.7 0)
+				(length 2.54)
+				(name "COMP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -17.78 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 -17.78 90)
+				(length 2.54)
+				(name "PAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.97 11.43 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -250,7 +197,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 3.81 180)
+				(at 13.97 3.81 180)
 				(length 2.54)
 				(name "CSN"
 					(effects
@@ -268,7 +215,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 -3.81 180)
+				(at 13.97 -11.43 180)
 				(length 2.54)
 				(name "CSP"
 					(effects
@@ -278,24 +225,6 @@
 					)
 				)
 				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 11.43 -11.43 180)
-				(length 2.54)
-				(name "COMP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
