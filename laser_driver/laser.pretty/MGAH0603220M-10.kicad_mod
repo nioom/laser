@@ -282,4 +282,15 @@
 		(uuid "a4326045-06fb-4351-9e99-4e9ff32fb326")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/MGAH0603220M-10.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
