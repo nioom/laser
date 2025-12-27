@@ -188,9 +188,8 @@
       ],
       "track_widths": [
         0.0,
-        0.254,
-        0.508,
-        0.762
+        0.0,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -224,12 +223,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.6,
-          "drill": 0.3
+          "diameter": 0.4,
+          "drill": 0.8
         },
         {
-          "diameter": 0.8,
-          "drill": 0.4
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -584,26 +583,14 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Opis",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Oznaczenie"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -633,14 +620,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
